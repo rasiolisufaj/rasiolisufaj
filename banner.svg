@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="330" viewBox="0 0 800 330" role="img" aria-label="Terminal: Rasiol Isufaj, Software Engineer and Full-Stack Developer at 42 Paris, looking for a 4–6 month software engineering internship in Paris">
+  <title>Rasiol Isufaj · Software Engineer · Full-Stack Developer · 42 Paris</title>
+  <!-- Every element's base state is fully visible; the animations only hide things
+       until their turn, so renderers without SMIL still show the finished terminal. -->
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', 'DejaVu Sans Mono', monospace; font-size: 15px; fill: #e6edf3; }
+    .t { font-size: 13px; fill: #8b949e; }
+    .p { fill: #3fb950; font-weight: 700; }
+    .m { fill: #8b949e; }
+    .k { fill: #d2a8ff; }
+    .d { fill: #79c0ff; font-weight: 700; }
+    .b { font-weight: 700; }
+    .o { fill: #ffa657; font-weight: 700; }
+  </style>
+
+  <defs>
+    <clipPath id="c1"><rect x="44" y="56" height="22" width="70"><animate attributeName="width" values="0;0;70" keyTimes="0;0.4444;1" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="44" y="108" height="22" width="140"><animate attributeName="width" values="0;0;140" keyTimes="0;0.6667;1" dur="2.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="44" y="186" height="22" width="130"><animate attributeName="width" values="0;0;130" keyTimes="0;0.8205;1" dur="3.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="44" y="238" height="22" width="200"><animate attributeName="width" values="0;0;200" keyTimes="0;0.8214;1" dur="5.6s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="799" height="329" rx="10" fill="#161b22" stroke="#30363d"/>
+  <path d="M0.5 36V10.5a10 10 0 0 1 10-10h779a10 10 0 0 1 10 10V36z" fill="#21262d"/>
+  <line x1="0.5" y1="36" x2="799.5" y2="36" stroke="#30363d"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="18" r="6" fill="#27c93f"/>
+  <text x="400" y="23" text-anchor="middle" class="t">rasiol@42paris: ~</text>
+
+  <!-- $ whoami -->
+  <text x="28" y="72" class="p"><set attributeName="opacity" to="0" dur="0.4s"/>$</text>
+  <text x="46" y="72" clip-path="url(#c1)">whoami</text>
+  <text x="28" y="98"><set attributeName="opacity" to="0" dur="1.2s"/><tspan class="b">Rasiol Isufaj</tspan><tspan class="m"> · </tspan>Software Engineer<tspan class="m"> · </tspan>Full-Stack Developer<tspan class="m"> · </tspan>42 Paris</text>
+
+  <!-- $ cat stack.txt -->
+  <text x="28" y="124" class="p"><set attributeName="opacity" to="0" dur="1.6s"/>$</text>
+  <text x="46" y="124" clip-path="url(#c2)">cat stack.txt</text>
+  <g>
+    <set attributeName="opacity" to="0" dur="2.7s"/>
+    <text x="28" y="150" class="k">web</text>
+    <text x="118" y="150">TypeScript<tspan class="m"> · </tspan>React<tspan class="m"> · </tspan>Next.js<tspan class="m"> · </tspan>Node.js<tspan class="m"> · </tspan>PostgreSQL</text>
+  </g>
+  <g>
+    <set attributeName="opacity" to="0" dur="2.8s"/>
+    <text x="28" y="176" class="k">systems</text>
+    <text x="118" y="176">C<tspan class="m"> · </tspan>C++<tspan class="m"> · </tspan>Docker<tspan class="m"> · </tspan>NGINX<tspan class="m"> · </tspan>Linux</text>
+  </g>
+
+  <!-- $ ls projects/ -->
+  <text x="28" y="202" class="p"><set attributeName="opacity" to="0" dur="3.2s"/>$</text>
+  <text x="46" y="202" clip-path="url(#c3)">ls projects/</text>
+  <text y="228" class="d"><set attributeName="opacity" to="0" dur="4.2s"/><tspan x="28">MesPapiers/</tspan><tspan x="158">WebServ/</tspan><tspan x="268">Inception/</tspan><tspan x="388">MiniShell/</tspan></text>
+
+  <!-- $ cat looking_for.txt -->
+  <text x="28" y="254" class="p"><set attributeName="opacity" to="0" dur="4.6s"/>$</text>
+  <text x="46" y="254" clip-path="url(#c4)">cat looking_for.txt</text>
+  <text x="28" y="280"><set attributeName="opacity" to="0" dur="5.9s"/><tspan class="o">4–6 month software engineering internship</tspan><tspan class="m"> · </tspan>Paris, France</text>
+
+  <!-- idle prompt -->
+  <g>
+    <set attributeName="opacity" to="0" dur="6.3s"/>
+    <text x="28" y="306" class="p">$</text>
+    <rect x="46" y="292" width="9" height="18" fill="#e6edf3"><animate attributeName="opacity" values="1;0" dur="1.1s" repeatCount="indefinite" calcMode="discrete"/></rect>
+  </g>
+</svg>
